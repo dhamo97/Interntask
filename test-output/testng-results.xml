@@ -2,31 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67738" started-at="2023-05-24T16:31:48Z" finished-at="2023-05-24T16:32:55Z">
+  <suite name="Default suite" duration-ms="77862" started-at="2023-05-29T05:57:10Z" finished-at="2023-05-29T05:58:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67738" started-at="2023-05-24T16:31:48Z" finished-at="2023-05-24T16:32:55Z">
+    <test name="Default test" duration-ms="77862" started-at="2023-05-29T05:57:10Z" finished-at="2023-05-29T05:58:27Z">
       <class name="task">
-        <test-method status="PASS" signature="lanuch()[pri:0, instance:task@15eb5ee5]" name="lanuch" is-config="true" duration-ms="6363" started-at="2023-05-24T16:31:48Z" finished-at="2023-05-24T16:31:54Z">
+        <test-method status="PASS" signature="lanuch()[pri:0, instance:task@2145b572]" name="lanuch" is-config="true" duration-ms="15336" started-at="2023-05-29T05:57:10Z" finished-at="2023-05-29T05:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanuch -->
-        <test-method status="PASS" signature="login()[pri:1, instance:task@15eb5ee5]" name="login" duration-ms="5569" started-at="2023-05-24T16:31:54Z" finished-at="2023-05-24T16:31:59Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:task@2145b572]" name="login" duration-ms="5550" started-at="2023-05-29T05:57:25Z" finished-at="2023-05-29T05:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="AnalyticsandReports()[pri:2, instance:task@15eb5ee5]" name="AnalyticsandReports" duration-ms="16290" started-at="2023-05-24T16:31:59Z" finished-at="2023-05-24T16:32:16Z">
+        <test-method status="PASS" signature="AnalyticsandReports()[pri:2, instance:task@2145b572]" name="AnalyticsandReports" duration-ms="17321" started-at="2023-05-29T05:57:31Z" finished-at="2023-05-29T05:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AnalyticsandReports -->
-        <test-method status="PASS" signature="Addstudentdata()[pri:3, instance:task@15eb5ee5]" name="Addstudentdata" duration-ms="34573" started-at="2023-05-24T16:32:16Z" finished-at="2023-05-24T16:32:50Z">
+        <test-method status="PASS" signature="Addstudentdata()[pri:3, instance:task@2145b572]" name="Addstudentdata" duration-ms="34768" started-at="2023-05-29T05:57:48Z" finished-at="2023-05-29T05:58:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addstudentdata -->
-        <test-method status="PASS" signature="Editdata()[pri:4, instance:task@15eb5ee5]" name="Editdata" duration-ms="4885" started-at="2023-05-24T16:32:50Z" finished-at="2023-05-24T16:32:55Z">
+        <test-method status="PASS" signature="Editdata()[pri:4, instance:task@2145b572]" name="Editdata" duration-ms="4600" started-at="2023-05-29T05:58:23Z" finished-at="2023-05-29T05:58:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Editdata -->
+        <test-method status="PASS" signature="close()[pri:0, instance:task@2145b572]" name="close" is-config="true" duration-ms="235" started-at="2023-05-29T05:58:27Z" finished-at="2023-05-29T05:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- task -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

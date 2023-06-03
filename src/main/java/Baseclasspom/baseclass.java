@@ -67,9 +67,15 @@ public class baseclass {
 				}
 		
 		
-		
+public static void screenshot(String name) throws IOException {
+			
+			TakesScreenshot s =(TakesScreenshot) driver;
+			
+			File ScreenshotAs = s.getScreenshotAs(OutputType.FILE);
+			File f = new File("C:\\Users\\balus\\eclipse-workspace\\InternTask\\"+name+".png");
+			FileUtils.copyFile(ScreenshotAs, f);
 			}
 
 	
 		
-	
+}

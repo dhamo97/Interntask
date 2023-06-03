@@ -1,3 +1,4 @@
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -70,6 +71,11 @@ private void lanuch() {
 		click(pom4.Edit);
 		Entertext(pom4.Editadmmission, "1111");
 		click(pom4.confrim);
+
+	}
+	@AfterTest
+	private void close() {
+		driver.close();
 
 	}
 	
